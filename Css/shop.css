@@ -1,0 +1,404 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color:aliceblue
+   }
+   .menu{
+       width:90% ;
+       height: 3rem;
+       background-color: aliceblue;
+       margin-top: 3rem;
+       margin-left:5%;
+   }
+   .menu2{
+    width:100vw ;
+    height: 4rem;
+    background-color:aliceblue;
+    position: relative;
+    margin-right: 4rem;
+    top: 0.1rem;
+    position: sticky;
+    z-index:999 ;
+}
+
+
+
+
+
+.menu3{
+    width:100VW;
+    height: 5rem;
+    background-color:#9b0839;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.account{
+    width:10vw;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.cat{
+    width:8vw;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.menu2_a{
+   text-transform: capitalize;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 17px;
+}
+   
+ol{
+       height: 100%;
+       list-style-type: none;
+       text-decoration: none;
+       align-items: center;
+       display: flex;
+       flex-direction: row;
+       margin-left: 8rem;
+   
+}
+a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 2rem;
+    padding: .5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+   a:hover{ 
+        transition: 1.5s ease-in-out;
+        border-radius: 10px;
+        background-color: #9b0839;
+        color: white;
+   }
+   
+   nav{
+       width: 100%;
+       align-items: center;
+       display: flex;
+       flex-direction: row;
+      
+   }
+  
+   .firstWrapper img{
+       width: 100vw;
+       height: 96vh;
+       background-color: aliceblue;
+       margin-top: 1rem;
+       display: flex;
+       align-items: center;
+       position: relative;
+   }
+   .h1{
+    font-size: 4rem;
+    font-weight: 100;
+   position: relative;
+   top: 2rem;
+}
+
+.intro{
+    padding-left: 3rem;
+    position: absolute;
+    bottom:1rem;
+        
+}
+  
+   .secondWrapper{
+    width: 100%;
+    height:auto;
+}
+.wrapperone{
+    width: 100%;
+    height:15rem;
+    display: flex;
+    flex-direction: row;
+   color: blue;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: larger;
+}
+.default{
+    padding-left: 15rem;
+}
+.info{
+    padding-left: 3rem;
+}
+.search{
+    height: 3rem;
+    width: 15rem;
+    margin-top: 6rem;
+    margin-left: 20rem;
+}
+.catalog{
+    width: 75%;
+    height:auto;
+    display: flex;
+    flex-direction:column;
+}
+.catalogone{
+    width: 100%;
+    height:35rem;  
+    display: flex;
+    flex-direction:row;
+}
+.pic_one{
+    width: 90%;
+    height: 25rem;
+    background-color: #bdbcbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic_border img{
+    width: 80%;
+    height: 22rem;
+    border: 2px solid black;
+    margin-left: 1.5rem;
+   
+}
+.pic_border img:hover{
+transition: 0.5s ease-in-out;
+width: 17.9rem;
+height: 24.5rem;
+position: relative;
+right: 1rem;
+}
+.perfume_one{
+    width: 100%;
+    height:35rem;
+    flex-direction:column;
+    margin-left:2.5rem;
+    
+}
+ .perfume_name{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: larger;
+   margin-top: 2rem;
+   margin-left: 3rem;
+   position: relative;
+}
+.buy{
+    width:90%;
+    height:4rem;
+    
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+.cart{
+    width: 50%;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.amount{
+    width: 50%;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+
+.perfume_two{
+    width: 100%;
+    height:35rem;
+    display: flex;
+    flex-direction:column;
+}
+.perfume_two_name{
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: 2rem;
+   margin-left: 8rem;
+}
+.pic_two{
+    width: 90%;
+    height: 25rem;
+    background-color: #bdbcbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfume_three{
+    width: 100%;
+    height:35rem;
+    display: flex;
+    flex-direction:column;
+}
+.perfume_three_name{
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: 2rem;
+   margin-left: 8rem;
+}
+.pic_three{
+    width: 90%;
+    height: 25rem;
+    background-color: #bdbcbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.catalogtwo{
+    width: 100%;
+    height:35rem;
+   
+    display: flex;
+    flex-direction:row;
+}
+.catalogthree{
+    width: 100%;
+    height:35rem;
+    
+    display: flex;
+    flex-direction:row;
+}
+.sideinfo{
+    width: 20%;
+    height:120rem;
+    background-color:#ffff;
+    display: flex;
+    flex-direction: column;
+}
+.count{
+        width: 100%;
+        height:5rem;
+        display: flex;
+        flex-direction:row;
+        background-color: #db5656;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-right: 1px solid black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: larger;
+}
+.sideinfo .img1{
+    height: 10rem;
+    width:60%;
+    margin-top: -1.5rem;
+}
+.sideinfo img{
+    height:25rem;
+    width: 100%;
+}
+.sideinfo_1{
+    height:25rem;
+    width: 100%;
+    margin-top: -4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.sideinfo_2{
+    height:25rem;
+    width: 100%;
+    margin-top: -1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.new1{
+    height: 7rem;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.picture_border img{
+    height: 7rem;
+    width: 60%;
+    border: 1px solid black;
+    margin-left: 3rem;
+   
+}
+.tags button{
+    height: 3rem;
+    width: 40%;
+    display: flex;
+    margin: 2rem;
+    margin-left: 3rem;
+    
+}
+
+/* .thirdwrapper{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+} */
+.hey{
+    width: 100%;
+    height: auto;
+    display: none;
+    flex-direction: row;
+    }
+.footerwrapper{
+    width: 97vw;
+    height: 16rem;
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    display: block;
+    width: 97vw;
+    height: 20rem;
+    background-color:black;
+    color: white;
+}
+.name{
+    width: 21.5vw;
+    height: 16rem;
+    margin-left: 6vw;
+    color: white;
+}
+.contact{
+    width: 21.5vw;
+    height: 16rem;
+    color: white;
+   
+}
+.newsfeed{
+    width: 21.5vw;
+    height: 16rem;
+    color: white;
+}
+.newsfeed hr{
+    width: 15vw;
+    margin-left: 0rem;
+}
+button{
+    height: 3rem;
+    width: 14.5vw;
+}
+.pages{
+    width: 21.5vw;
+    height: 16rem; 
+    color: white;  
+}
+footer hr{
+    width: 97vw;
+}

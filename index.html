@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Css/home.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="menu">
+          <div id="logo"><img src="Images/logo.png" alt=""></div>
+            <h1 style="margin-left:4rem;font-size:30px;">F</h1><sub style="font-size: smaller;margin-top:0.7rem;">BY</sub><h1 style="font-size:30px;">C</h1>
+            <ol>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="aboutus.html">About Us</a></li>
+                <li> <a href="shop.html">Shop</a></li>
+                <li> <a href="contactus.html">Contact Us</a></li>
+            </ol>
+            <div id="avartar"><img src="Images/account.webp" alt=""></div>
+            <button id="login">Login</button>
+        </nav>
+        
+        <div class="page_info">
+            <div class="page_name">
+               <h2>welcome To:</h2>
+                <p>Fragrance_By_Caly </p><br>
+                <p style="margin-top:0rem;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: small;margin-right: 2rem;">We are passionate and committed to our <br>
+                    clientele with fashionable high quality <br> products and most importantly with excellent <br>
+                    customer service.</p>
+                    <button class="buy" onclick="nextpage()" id="button">Buy Now</button>
+            </div>
+            <div class="video">
+                <img src="Images/perfume6.jpg" alt="">
+            </div>
+                
+        <div class="log l1">
+        <form action="">
+            <div class="imgcontainer">
+              <img src="Images/perfume back 5.jpeg" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          
+            <div class="container">
+              <button type="button" class="cancelbtn" >Cancel</button>
+              <span class="psw">Forgot <a style="text-transform: capitalize;" href="#">password?</a></span>
+            </div>
+            <div class="container">
+              <span class="new" style="cursor: pointer; color: blue;" onclick="sign()">Dont have account...? Signup </span>
+            </div>
+          </form>
+        </div>
+
+        <div class="log l2">
+          <form action="">
+            
+              <div class="container">
+
+                <label>
+                  <input type="Radio" name="remember">Male
+                  <input type="Radio" name="remember">Female
+                </label>
+
+                <div class="container">
+                  <label for="uname"><b>First Name</b></label>
+                  <input type="text" placeholder="Enter First Name" name="uname" required>
+    
+                  <label for="uname"><b>Last Name</b></label>
+                  <input type="text" placeholder="Enter Last Narrow" name="uname" required>
+            
+                <label for="psw"><b>Email</b></label>
+                <input type="email" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw"><b>Create Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="psw"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Re-enter Password" name="psw" required>
+            
+               
+
+                <button type="submit">Create Account</button>
+                
+              </div>
+            
+              <div class="container">
+                <button type="button" class="cancelbutn">Cancel</button>
+                <span class="new_acc" style="color: blue; cursor: pointer;" onclick="log()">Already have an account...? login</span>
+              </div>
+            </form>
+          </div>
+        </div>
+         
+        
+    </div>
+</body>
+<footer>
+
+</footer>
+<script src="js/style.js"></script>
+</html>
